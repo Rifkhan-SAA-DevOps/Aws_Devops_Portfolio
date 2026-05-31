@@ -414,8 +414,8 @@ export default function PortfolioWebsite() {
       <section id="projects" className="mx-auto max-w-7xl px-6 py-20">
         <SectionTitle
           eyebrow="Projects"
-          title="Cloud and DevOps projects built for real hiring impact"
-          subtitle="These projects show practical AWS architecture, deployment automation, containerization, serverless implementation, and infrastructure automation."
+          title="Production-Ready AWS & DevOps Projects"
+          subtitle="Hands-on cloud deployments demonstrating AWS architecture, containerization, CI/CD automation, serverless implementation, and infrastructure as code."
         />
 
         <div className="grid gap-6 md:grid-cols-2">
@@ -686,7 +686,7 @@ export default function PortfolioWebsite() {
               Open to Opportunities
             </p>
             <h2 className="bg-gradient-to-r from-white via-cyan-100 to-amber-100 bg-clip-text text-3xl font-black text-transparent md:text-5xl">
-              Looking for Junior Cloud, DevOps, or AWS roles
+              Looking for Cloud, DevOps, or AWS roles
             </h2>
             <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-300">
               I am actively seeking opportunities where I can design, deploy,
