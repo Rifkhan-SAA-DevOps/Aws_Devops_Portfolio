@@ -31,6 +31,7 @@ const skills = [
   "ACM",
   "IAM",
   "ALB",
+  "SSM",
   "Auto Scaling",
   "Docker",
   "Amazon ECR",
@@ -43,11 +44,12 @@ const skills = [
   "Node.js",
   "Express.js",
   "MySQL",
+  "DynamoDB",
 ];
 
 const projects = [
   {
-    title: "Production-Style AWS 3-Tier Full-Stack Blog Application",
+    title: "Production-Style AWS 3-Tier Full-Stack Application",
     category: "AWS Cloud Architecture",
     icon: <Layers className="h-6 w-6" />,
     gradient: "from-sky-500 via-cyan-400 to-emerald-400",
@@ -60,7 +62,17 @@ const projects = [
       "Frontend and backend Auto Scaling Groups",
       "RDS MySQL database in secured network layer",
     ],
-    stack: ["AWS", "EC2", "ALB", "ASG", "RDS", "Route 53", "ACM", "Nginx"],
+
+    stack: [
+      "EC2",
+      "ALB",
+      "ASG",
+      "RDS",
+      "Route 53",
+      "ACM",
+      "GitHub Actions",
+      "CI/CD",
+    ],
     github: "https://github.com/Rifkhan-SAA-DevOps/Blog_3Tier_Arch_AWS",
   },
   {
@@ -77,26 +89,49 @@ const projects = [
       "Automated deployment with GitHub Actions",
       "Connected backend containers with Amazon RDS",
     ],
-    stack: ["Docker", "ECR", "GitHub Actions", "EC2", "RDS", "Linux"],
+
+    stack: [
+      "EC2",
+      "ALB",
+      "ASG",
+      "Docker",
+      "ECR",
+      "GitHub Actions",
+
+      "RDS",
+      "CI/CD",
+    ],
     github:
-      "https://github.com/Rifkhan-SAA-DevOps/dockerized-ecommerce-aws-devops",
+      "https://github.com/Rifkhan-SAA-DevOps/dockerized-ecommerce-aws-devops/tree/main",
   },
   {
-    title: "Serverless Full-Stack Deployment on AWS",
+    title: "Serverless Full-Stack Deployment on AWS & With Docker",
     category: "Serverless Architecture",
     icon: <Cloud className="h-6 w-6" />,
     gradient: "from-orange-400 via-amber-400 to-yellow-300",
     description:
-      "Built a serverless deployment model using S3 static hosting, API Gateway, Lambda backend functions, IAM least-privilege roles, Parameter Store, and RDS MySQL.",
+      "Built  serverless deployment models using S3 static hosting, API Gateway, Lambda backend functions & Lambda Docker Container backend functions , IAM least-privilege roles, Parameter Store, and DynamoDB.",
     highlights: [
       "React frontend hosted on Amazon S3",
       "Backend APIs served through API Gateway and Lambda",
       "Used IAM roles instead of IAM users where possible",
       "Stored configuration using Parameter Store",
-      "Connected Lambda functions with RDS MySQL",
+      "Connected Lambda functions with DynamoDB",
     ],
-    stack: ["S3", "Lambda", "API Gateway", "IAM", "Parameter Store", "RDS"],
-    github: "https://github.com/Rifkhan-SAA-DevOps/serverless-3tier-artch",
+
+    stack: [
+      "S3",
+      "Cloudfront",
+      "Lambda",
+      "API Gateway",
+      "IAM",
+      "Parameter Store",
+      "DynamoDB",
+      "GitHub Actions",
+      "CI/CD",
+    ],
+    github:
+      "https://github.com/Rifkhan-SAA-DevOps/serverless-AWS-3-tier-architecture",
   },
   {
     title: "Terraform AWS Infrastructure Automation",
@@ -111,8 +146,22 @@ const projects = [
       "Practiced EC2, VPC, security group, and IAM setup",
       "Built foundation for automated cloud infrastructure",
     ],
-    stack: ["Terraform", "AWS", "VPC", "EC2", "Security Groups", "IAM"],
-    github: "https://github.com/Rifkhan-SAA-DevOps/terraform-for-blog-app",
+
+    stack: [
+      "AWS",
+      "Terraform",
+      "VPC",
+      "EC2",
+      "ALB",
+      "ASG",
+      "Security Groups",
+      "IAM",
+      "GitHub Actions",
+      "CI/CD",
+      "S3",
+    ],
+    github:
+      "https://github.com/Rifkhan-SAA-DevOps/aws-3tier-docker-devops-terraform-cicd",
   },
 ];
 
@@ -122,10 +171,14 @@ const stats = [
     value: "SAA",
     icon: <Award className="h-5 w-5" />,
   },
-  { label: "Cloud Projects", value: "4+", icon: <Cloud className="h-5 w-5" /> },
+  {
+    label: "Cloud Projects",
+    value: "10+",
+    icon: <Cloud className="h-5 w-5" />,
+  },
   {
     label: "Deployment Models",
-    value: "3",
+    value: "10+",
     icon: <Rocket className="h-5 w-5" />,
   },
   {
@@ -144,13 +197,25 @@ const certificates = [
       "Validated knowledge of designing secure, scalable, highly available, and cost-optimized architectures on AWS.",
     skills: [
       "AWS Architecture",
-      "EC2",
       "VPC",
-      "RDS",
-      "S3",
-      "IAM",
       "High Availability",
+      "AWS EC2",
+      "S3",
+      "RDS MySQL",
+      "Lambda",
+      "API Gateway",
+      "Route 53",
+      "ACM",
+      "IAM",
+      "ALB",
+      "SSM",
+      "Auto Scaling",
+      "Amazon ECR",
+      "MySQL",
+      "DynamoDB",
+      "...",
     ],
+    images: [],
     link: "https://www.credly.com/badges/57dc8219-e439-40b8-a28a-eb9d12b74808",
   },
 ];
